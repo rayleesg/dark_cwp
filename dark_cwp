@@ -18,13 +18,12 @@ echo "transition:100ms ease all;" >> custom.css
 echo "-o-transition-duration:100ms ease all" >> custom.css
 echo "}" >> custom.css
 echo "" >> custom.css
-echo "iframe,img,embed[flashvars],[type*=\"application/x-shockwave-flash\"],[type*=\"application/x-silverlight\"]" >> custom.css
+echo "img,embed[flashvars],[type*=\"application/x-shockwave-flash\"],[type*=\"application/x-silverlight\"]" >> custom.css
 echo "{" >> custom.css
 echo "-webkit-filter:invert(1) hue-rotate(180deg)!important;" >> custom.css
 echo "-moz-filter:invert(1) hue-rotate(180deg)!important;" >> custom.css
 echo "filter:invert(1) hue-rotate(180deg)!important;" >> custom.css
 echo "filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0,xray=0,mirror=0,invert=1,opacity=1,rotation=2)!important;" >> custom.css
-echo "opacity:.4" >> custom.css
 echo "}" >> custom.css
 echo "" >> custom.css
 echo "tr > td > a > img,th > a > img" >> custom.css
